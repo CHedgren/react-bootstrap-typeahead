@@ -300,7 +300,6 @@ const Typeahead = React.createClass({
         break;
 
       case DOWN:
-            console.log('down')
         // display and cycle through the options if the menu is hidden.
         if (!this.state.showMenu) {
           this.setState({showMenu: true});
